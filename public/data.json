@@ -1,0 +1,26 @@
+[
+    {
+      "id": 1,
+      "name": "Minecraft",
+      "price": 10,
+      "img": "https://www.minecraft.net/content/dam/games/minecraft/key-art/Games_Subnav_Minecraft-300x465.jpg"
+    },
+    {
+      "id": 2,
+      "name": "Csgo",
+      "price": 20,
+      "img": "https://upload.wikimedia.org/wikipedia/ru/a/a9/CS-S_Box.jpg"
+    },
+    {
+      "id": 3,
+      "name": "League of Legends",
+      "price": 30,
+      "img": "https://theme.zdassets.com/theme_assets/43400/87a1ef48e43b8cf114017e3ad51b801951b20fcf.jpg"
+    },
+    {
+      "id": 4,
+      "name": "Stardew Valley",
+      "price": 40,
+      "img": "https://upload.wikimedia.org/wikipedia/en/f/fd/Logo_of_Stardew_Valley.png"
+    }
+  ]

@@ -5,14 +5,14 @@
   }
   
   
-  header{
+  .header{
     background-color: #171a21;
     box-shadow: 0 0 7px 0 rgb(0 0 0 / 75%);
     position: fixed;
     width: 100%;
   }
   
-  .nav-sup{
+  .nav-sup-login{
     display: flex;
     align-items: center;
     justify-content: end;
@@ -20,7 +20,7 @@
     font-family: Arial, Helvetica, sans-serif;
   }
   
-  .nav-sup > a{
+  .nav-sup-login > a{
     margin-right: 10px;
     text-decoration: none;
     color: white;
@@ -44,12 +44,12 @@
   }
   
   
-  .nav-sup > p{
+  .nav-sup-login > p{
     margin-right: 10px;
     margin-top: 5px;
   }
   
-  .nav-bar{
+  .nav-bar-login{
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -57,12 +57,12 @@
   }
   
   
-  .nav-bar > img{
+  .nav-bar-login > img{
     width: 200px;
     margin-bottom: 15px;
   }
   
-  .nav-tienda > a {
+  .nav-tienda-login > a {
     text-decoration: none;
     color:white;
     font-family: Arial, Helvetica, sans-serif;
@@ -74,12 +74,12 @@
   }
   
   
-  .fondo{
+  .fondo-login{
     background: radial-gradient(rgba(24, 26, 33, 0) 0%, #181A21 100%) fixed no-repeat, url(https://store.cloudflare.steamstatic.com/public/shared/images/joinsteam/new_login_bg_strong_mask_mobile.jpg) center top no-repeat, #181A21;
     height: 100%;
   }
   
-  .sub-fondo{
+  .sub-fondo-login{
     display: flex;
     margin: center;
     flex-direction: column;
@@ -87,7 +87,7 @@
     text-align: center;
   }
   
-  .sub-fondo h1{
+  .sub-fondo-login h1{
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-weight: 200;
     color: #ffff;
@@ -335,7 +335,7 @@
     }
   
   
-    .fondo{
+    .fondo-login{
         height: 750px;
         background-image: url("https://store.cloudflare.steamstatic.com/public/shared/images/joinsteam/new_login_bg_strong_mask_mobile.jpg");
         background-repeat: no-repeat;
@@ -448,7 +448,7 @@
         font-size: 13px;
     }
   
-    .fondo{
+    .fondo-login{
         background-image:url(https://store.cloudflare.steamstatic.com/public/shared/images/joinsteam/new_login_bg_strong_mask.jpg);
         background-position: center top;
         background-repeat: no-repeat;
@@ -469,13 +469,13 @@
         margin-top: 40px;
     }
     
-    header{
+   .header{
         height: 100px;
         background: #171d25;
   
     }
   
-    .nav-sup{ 
+    .nav-sup-login{ 
         position: absolute;
         right: 0px;
         top: 6px;
@@ -537,7 +537,7 @@
   
     
   
-    .nav-bar{
+    .nav-bar-login{
         display: flex;
         align-items: center;
         justify-content: center;
@@ -548,19 +548,19 @@
         
     }
   
-    .nav-bar img{
+    .nav-bar-login img{
         width: 180px;
         margin-top: 5px;
         
     }
   
-    .nav-tienda  {
+    .nav-tienda-login  {
         margin-left: 15px;
         font-weight: 400;
         font-size: 16px;
     }
   
-    .nav-tienda a{
+    .nav-tienda-login a{
         color: #dcdedf;
         font-size: 16px;
         font-weight: 550;

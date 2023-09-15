@@ -7,8 +7,8 @@ function Main(){
         
 <body>
 
- <section className="fondo">
-    <main className="sub-fondo">
+ <section className="fondo-login">
+    <main className="sub-fondo-login">
         <div className="title">
         <h1>INICIAR SESIÓN</h1>
         </div>

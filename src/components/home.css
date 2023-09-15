@@ -5,12 +5,12 @@
 }
 
 
-header{
+.header-home{
     background-color: #1b2838;
     box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
 }
 
-.nav-sup{
+.nav-sup-home{
     display: flex;
     align-items: center;
     justify-content: end;
@@ -18,31 +18,31 @@ header{
     font-family: Arial, Helvetica, sans-serif;
 }
 
-.nav-sup > a{
+.nav-sup-home > a{
     margin-right: 10px;
     text-decoration: none;
     color: white;
     margin-top: 5px;
 }
 
-.nav-sup > p{
+.nav-sup-home > p{
     margin-right: 10px;
     margin-top: 5px;
 }
 
-.nav-bar{
+.nav-bar-home{
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
 
 
-.nav-bar > img{
+.nav-bar-home > img{
     width: 200px;
     margin-bottom: 15px;
 }
 
-.nav-bar > a {
+.nav-bar-home > a {
     text-decoration: none;
     color:white;
     font-family: Arial, Helvetica, sans-serif;
@@ -103,7 +103,7 @@ header{
     border: 1px white bold;
 }
 
-.sub-fondo{
+.sub-fondo-home{
     height: 400px;
     width: 100%;
     background-image: url(multimedia/home_header_bg_day_mobile_spanish.gif);

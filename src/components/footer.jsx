@@ -1,6 +1,6 @@
 import React from 'react';
 import '../App.css';
-import foto from './multimedia/footer-login.png'git 
+import foto from './multimedia/footer-login.png'
 
 function Footer(){
     return(

@@ -8,8 +8,8 @@ import {Link} from 'react-router-dom';
 function Home () {
     return(
 <div>
-        <header>
-    <section className="nav-sup">
+        <header className="header-home">
+    <section className="nav-sup-home">
         <a  href="#">Instalar Steam</a>
         <Link to="/login">Iniciar sesion</Link>
         <p>Idioma</p>
@@ -17,10 +17,10 @@ function Home () {
 
     <div>
 
-    <section className="nav-mid">
-        <nav className="nav-bar">
+    <section className="nav-mid-home">
+        <nav className="nav-bar-home">
             <img src={logo} alt="logo-steam"/>
-        <div className="nav-tienda">
+        <div className="nav-tienda-home">
             <a href="#">Tienda</a>
             <a href="#">Comunidad</a>
             <a href="#">Acerca de</a>
@@ -52,8 +52,8 @@ function Home () {
         </section>
      </section>
  
-     <section className="fondo">
-        <div className="sub-fondo"></div>
+     <section className="fondo-home">
+        <div className="sub-fondo-home"></div>
      </section>
 
      <section className="overflow">

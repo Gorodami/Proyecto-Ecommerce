@@ -4,8 +4,8 @@ import logo_steam from './multimedia/logo_steam.svg'
 
 function Header(){
     return(
-<header>
-    <section className="nav-sup">
+<header className='header'>
+    <section className="nav-sup-login">
         <div className="instal">
         <a href="#">Instalar Steam</a>
         </div>
@@ -15,9 +15,9 @@ function Header(){
     </section>
 
     <section className="nav-mid">
-        <nav className="nav-bar">
+        <nav className="nav-bar-login">
             <img src={logo_steam} alt="logo-steam"/>
-            <div className="nav-tienda">
+            <div className="nav-tienda-login">
             <a  id="tienda" href="#">TIENDA</a>
             <a href="#">COMUNIDAD</a>
             <a href="#">ACERCA DE</a>
