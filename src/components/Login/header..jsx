@@ -1,6 +1,6 @@
 import React from 'react';
-import '../App.css';
-import logo_steam from './multimedia/logo_steam.svg'
+import '../../app.css';
+import logo_steam from '../multimedia/logo_steam.svg'
 
 function Header(){
     return(

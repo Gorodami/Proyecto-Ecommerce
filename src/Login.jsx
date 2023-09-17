@@ -1,7 +1,7 @@
 import React from 'react'
-import Header from './components/header.';
-import Main from './components/main';
-import Footer from './components/footer';
+import Header from './components/Login/header.';
+import Main from './components/Login/main';
+import Footer from './components/Login/footer';
 import './App.css'
 
 function login() {
