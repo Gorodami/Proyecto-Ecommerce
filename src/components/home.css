@@ -2,54 +2,79 @@
     padding: 0;
     margin: 0;
     
-}
+  }
+  
+  
+  .header-home{
+    background-color: #171a21;
+    box-shadow: 0 0 7px 0 rgb(0 0 0 / 75%);
 
-
-.header-home{
-    background-color: #1b2838;
-    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
-}
-
-.nav-sup-home{
+    width: 100%;
+  }
+  
+  .nav-sup-home{
     display: flex;
     align-items: center;
     justify-content: end;
     color: #c6d4df;
     font-family: Arial, Helvetica, sans-serif;
-}
-
-.nav-sup-home > a{
+  }
+  
+  .nav-sup-home > a{
     margin-right: 10px;
     text-decoration: none;
     color: white;
     margin-top: 5px;
-}
-
-.nav-sup-home > p{
+  }
+  
+  .instal{
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    color: #c6d4df;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  
+  .instal a{
+    margin-right: 10px;
+    text-decoration: none;
+    color: white;
+    margin-top: 5px;
+  }
+  
+  
+  .nav-sup-home > p{
     margin-right: 10px;
     margin-top: 5px;
-}
-
-.nav-bar-home{
+  }
+  
+  .nav-bar-home{
     display: flex;
     align-items: center;
     justify-content: space-between;
-}
-
-
-.nav-bar-home > img{
+    background-repeat: no-repeat;
+  }
+  
+  
+  .nav-bar-home > img{
     width: 200px;
     margin-bottom: 15px;
-}
-
-.nav-bar-home > a {
+  }
+  
+  .nav-tienda-home > a {
     text-decoration: none;
     color:white;
     font-family: Arial, Helvetica, sans-serif;
     margin-right: 10px;
-}
+  }
+  
+  #tienda{
+    color: #1a9fff;
+  }
 
 .menu{
+    padding-top:  100px;;
     background-color: #417a9b;
     display: grid;
     grid-template-columns: (1, 1fr);
@@ -109,6 +134,7 @@
     background-image: url(multimedia/home_header_bg_day_mobile_spanish.gif);
     background-position: center;
     background-size: cover;
+    background-repeat: no-repeat;
 }
 
 .overflow{

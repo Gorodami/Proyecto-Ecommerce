@@ -2,7 +2,7 @@
     display: block;
     border-radius: 2%;
     overflow: hidden;
-    box-shadow: 5px 5px 5px 6px #7e09b4;
+    box-shadow: 5px 5px 5px 6px #1A9FFF;
     cursor: pointer;
     width: 300px;
     height: 300px;
@@ -29,7 +29,7 @@
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    
+    overflow: hidden;
 }
 
 .rating{
@@ -38,4 +38,10 @@
     justify-content: center;
     color: rgb(255, 217, 0);
     padding-bottom: 5px;
+}
+
+.api-games-container:hover{
+    box-shadow: 5px 5px 5px 6px #6700979c;
+    transform: scale(1.15) ;
+    transition: 0.2s;
 }
