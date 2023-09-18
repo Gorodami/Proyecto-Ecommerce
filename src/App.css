@@ -165,7 +165,7 @@
     margin-top: 40px;
   }
   
-  button{
+  .boton{
     width: 290px;
     height: 50px;
     /* background-color: #66C0F4; */
@@ -414,7 +414,7 @@
     .ayuda {
         margin-top: 60px;
     }
-    .boton button {
+    .boton  {
         background: linear-gradient(90deg, #06BFFF 0%, #2D73FF 100%);
         margin: 0;
     }
@@ -460,7 +460,7 @@
         margin-top: 60px ;
         
     }
-    .boton button {
+    .boton  {
         background: linear-gradient(90deg, #06BFFF 0%, #2D73FF 100%);
         margin: 0;
     }

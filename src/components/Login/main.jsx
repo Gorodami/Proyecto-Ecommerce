@@ -33,8 +33,8 @@ function Main(){
             <p>Recordarme</p>
         </div>
 
-        <div className="boton">
-            <button>Iniciar sesión</button>
+        <div>
+            <button className="boton">Iniciar sesión</button>
         </div>
 
         <div className="ayuda">
