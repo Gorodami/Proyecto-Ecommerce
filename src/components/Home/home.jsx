@@ -1,10 +1,10 @@
 import React from "react";
 import '../home.css'
-import logo from "../multimedia/logo_steam.svg";
-import Banner from "../multimedia/search_FILL0_wght400_GRAD0_opsz48.svg"
+import Search from "../multimedia/search_FILL0_wght400_GRAD0_opsz48.svg"
 import {Link} from 'react-router-dom';
 import Games from "../Api/games";
 import Header from "../Login/header.";
+import banner from "../multimedia/banner-hallowen.jpg"
 
 
 
@@ -15,6 +15,7 @@ function Home () {
             <Header/>
         </div>
         <body>
+
                 <section>
                     <div className="menu">
                         <Link to="#">Tu tienda</Link>
@@ -28,17 +29,19 @@ function Home () {
                         <div className="buscar">
                             <input type="search" placeholder=" Buscar" />
                             <a href="#">
-                                <img src={Banner} alt="" />
+                                <img src={Search} alt="" />
                             </a>
                         </div>
                     </section>
                 </section>
 
                 <section className="fondo">
-                    <div className="sub-fondo-home"></div>
+                    <div className="sub-fondo-home">
+                        <img className="banner-hallowen" src={banner} alt="" />
+                    </div>
                 </section>
 
-                <section>
+                <section className="game-fondo">
                     <Games />
                 </section>
 

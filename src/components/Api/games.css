@@ -4,5 +4,8 @@
     justify-content: center;
     gap: 3rem;
     padding: 2rem;
-    background-color: #1b2838;
+
+    background-image: url(multimedia/humo.mp4);
+    background-size: cover;
+    background-repeat: no-repeat;
 }

@@ -3,8 +3,8 @@
     margin: 0;
     
   }
-  
-  
+
+
   .header-home{
     background-color: #171a21;
     box-shadow: 0 0 7px 0 rgb(0 0 0 / 75%);
@@ -131,8 +131,15 @@
 .sub-fondo-home{
     height: 400px;
     width: 100%;
-    background-image: url(multimedia/home_header_bg_day_mobile_spanish.gif);
+    /* background-image: url(multimedia/banner-hallowen.jpg); */
     background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.banner-hallowen{
+    width: 100%;
+    height: 400px;
     background-size: cover;
     background-repeat: no-repeat;
 }
@@ -151,3 +158,9 @@
     margin-left: 7px;
 }
 
+.game-fondo{
+  background-image: url(multimedia/smoke-fog.gif);
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  }

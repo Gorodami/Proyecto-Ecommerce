@@ -41,7 +41,8 @@
 }
 
 .api-games-container:hover{
-    box-shadow: 5px 5px 5px 6px #6700979c;
+    box-shadow: 5px 5px 5px 6px;
     transform: scale(1.15) ;
     transition: 0.2s;
+    color:rgb(255, 145, 0);
 }

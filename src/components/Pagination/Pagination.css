@@ -3,13 +3,17 @@
     flex-direction: row;
     justify-content: center;
     gap: 20px;
-    background-color: #1b2838;
+    background-image: url(multimedia/smoke-fog.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
     overflow: hidden;
+    padding-top: 50px;
+    padding-bottom: 70px;
 }
 
 .button-prev{
     border-radius: 3px;
-    background-color: #1A9FFF;
+    background-color: rgb(255, 145, 0);
     padding: 1rem 3rem;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 20px;
@@ -17,15 +21,15 @@
 
 .button-next{
     border-radius: 3px;
-    background-color: #1A9FFF;
+    background-color: rgb(255, 145, 0);
     padding: 1rem 3rem;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 20px;
 }
 
-.button-next:hover, .button-prev:hover{
-    box-shadow: 5px 5px 5px 6px #6700979c;
-    transform: scale(1.15) ;
-    transition: 0.2s;
-}
 
+.button-next:hover, .button-prev:hover{
+    background: orange;
+    box-shadow: 0 0 10px orange, 0 0 40px orange, 0 0 80px orange;
+    
+}
