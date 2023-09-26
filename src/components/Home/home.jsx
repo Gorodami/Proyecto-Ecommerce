@@ -8,6 +8,7 @@ import banner from "../multimedia/banner-hallowen.jpg"
 
 
 
+
 function Home () {
     return(
         <>
@@ -25,14 +26,6 @@ function Home () {
                         <Link to="#">Noticias</Link>
                         <Link to="#">Laboratorios</Link>
                     </div>
-                    <section className="box">
-                        <div className="buscar">
-                            <input type="search" placeholder=" Buscar" />
-                            <a href="#">
-                                <img src={Search} alt="" />
-                            </a>
-                        </div>
-                    </section>
                 </section>
 
                 <section className="fondo">

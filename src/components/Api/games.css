@@ -4,8 +4,42 @@
     justify-content: center;
     gap: 3rem;
     padding: 2rem;
-
-    background-image: url(multimedia/humo.mp4);
     background-size: cover;
     background-repeat: no-repeat;
+}
+
+
+.search{
+    background-color: #417a9b;
+    display: flex;
+    height: 32px;
+    justify-content: space-between;
+    margin: 0 5px;
+    
+}
+
+.search a >img{
+    background-color: #00BBFF;
+    display: flex;
+    height: 27px;
+    justify-content: space-between;
+}
+
+
+.search > input{
+    font-family: 'Open Sans', sans-serif;  
+    font-size: 30px;
+    width: 100%;
+    background-color: #417a9b;
+}
+
+.search > input::placeholder{
+    color:#3D4450;
+    font-size: rgb(225, 228, 233)px;
+    background-color: #A7BACD;
+}
+
+
+.search a > img:hover{
+    border: 1px white bold;
 }

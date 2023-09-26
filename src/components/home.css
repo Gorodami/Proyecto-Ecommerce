@@ -96,42 +96,8 @@
     background-color: #417a9b;
 }
 
-.buscar{
-    background-color: #417a9b;
-    display: flex;
-    height: 20px;
-    justify-content: space-between;
-    margin: 0 5px;
-    
-}
-
-.buscar a >img{
-    background-color: #00BBFF;
-    display: flex;
-    height: 20px;
-    justify-content: space-between;
-}
-
-.buscar > input{
-    font-family: 'Open Sans', sans-serif;
-    width: 100%;
-    background-color: #417a9b;
-}
-
-.buscar > input::placeholder{
-    color:#3D4450;
-    font-size: 16px;
-    background-color: #A7BACD;
-}
-
-.buscar a > img:hover{
-    border: 1px white bold;
-}
-
 .sub-fondo-home{
     height: 400px;
-    width: 100%;
-    /* background-image: url(multimedia/banner-hallowen.jpg); */
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -159,8 +125,7 @@
 }
 
 .game-fondo{
-  background-image: url(multimedia/smoke-fog.gif);
   background-repeat: no-repeat;
   background-size: cover;
-
+  background-color: #20242c;
   }

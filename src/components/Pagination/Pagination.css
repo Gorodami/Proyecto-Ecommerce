@@ -3,12 +3,11 @@
     flex-direction: row;
     justify-content: center;
     gap: 20px;
-    background-image: url(multimedia/smoke-fog.gif);
     background-repeat: no-repeat;
     background-size: cover;
     overflow: hidden;
     padding-top: 50px;
-    padding-bottom: 70px;
+    padding-bottom: 30px;
 }
 
 .button-prev{
